@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CalculateSum {
 
-    public static void calulateSum(){
+    public static void calulateSum(){ //formal parameter
         Scanner sc =new Scanner(System.in);
 
         int a= sc.nextInt();
@@ -14,7 +14,7 @@ public class CalculateSum {
 
     }
     public static void main(String[] args) {
-        calulateSum();
+        calulateSum();//actual parameter //argument
         
         
     }
